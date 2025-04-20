@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Viva Mais</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html" class="logo">Clínica Viva Mais</a>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="servico.html">Serviço</a></li>
+          <li><a href="equipe.html">Nossa equipe</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <button class="hamburger"></button>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <div class="imagem-com-texto">
+        <img src="bemvindo.jpg" alt="Descrição da imagem" />
+        <h1  class="texto-sobre-imagem">Bem-vindo à Clínica Viva Mais</h1>
+      </div>
+    </main>
+    <div>
+      <h2 class="texto-centralizado">Serviços</h2>
+      <p class="paragrafo-centralizado">
+        Atendemos as seguintes: Especialidades, Exames e Procedimentos
+      </p>
+    </div>
+    <section class="menu-interativo">
+      <div class="botoes">
+        <button onclick="mostrarConteudo('especialidades')">Especialidades</button>
+        <button onclick="mostrarConteudo('exames')">Exames</button>
+        <button onclick="mostrarConteudo('procedimentos')">Procedimentos</button>
+      </div>
+    
+      <div class="conteudo" id="especialidades">
+        <h2>Especialidades</h2>
+        <p>A Clínica Viva Mais oferece inúmeras especialidades que podem garantir sua 
+          saúde completa em diferentes idades. Veja a lista de nossas especialidades atendidas:</p>
+      
+        <div class="especialidades-layout">
+          <img src="especialidade.jpg" alt="Imagem ilustrativa de especialidades" />
+          
+          <ul class="lista-especialidades">
+            <li>Cardiologia</li>
+            <li>Clínica Médica</li>
+            <li>Dermatologia</li>
+            <li>Endocrinologia</li>
+            <li>Fonoaudiologia</li>
+            <li>Gastroenterologia</li>
+            <li>Ginecologia e Obstetria</li>
+            <li>Neurologia</li>
+            <li>Nutrologia</li>
+            <li>Oftalmologia</li>
+            <li>Ortopedia</li>
+            <li>Otorrinolaringologia</li>
+            <li>Pediatria</li>
+            <li>Pneumologia</li>
+            <li>Proctologia</li>
+            <li>Psicologia</li>
+            <li>Psiquiatria</li>
+            <li>Radiologia</li>
+            <li>Urologia</li>
+          </ul>  
+        </div>
+      </div>      
+    
+      <div class="conteudo" id="exames" style="display: none;">
+        <h2>Exames</h2>
+        <p>Conheça os principais exames que realizamos. Atendemos por vários convênios e 
+          particular (Dinheiro, Débito ou Crédito).</p>
+        <div class="exames-layout">
+          <img src="exames.jpg" alt="Imagem de exame" />
+          <ul class="lista-exames">
+            <li>Audiometria</li>
+            <li>Doppler Vascular</li>
+            <li>Ecocardiograma</li>
+            <li>Ecografia geral</li>
+            <li>Endoscopia</li>
+            <li>Holter / MAPA</li>
+            <li>Laboratório</li>
+            <li>Mamografia</li>
+            <li>P300 / BERA / PAC</li>
+            <li>Raios-X Geral</li>
+            <li>Urodinâmica</li>
+          </ul>
+        </div>
+      </div>      
+        
+      <div class="conteudo" id="procedimentos" style="display: none;">
+        <h2>Procedimentos</h2>
+        <p>Conheça os principais procedimentos que realizamos. Atendemos por vários convênios e particular (Dinheiro, Débito ou Crédito).</p>
+        
+        <div class="procedimentos-layout">
+          <img src="procedimento.jpg" alt="Imagem de procedimento" />
+          
+          <ul class="lista-procedimentos">
+            <li>Cirurgias de Catarata</li>
+            <li>Cirurgias Dermatológicas</li>
+            <li>Cirurgias Oftalmológicas</li>
+          </ul>
+        </div>
+      </div>      
+    </section>
+    <footer class="rodape">
+      <p>&copy; 2025 Clínica Viva Mais. Todos os direitos reservados.</p>
+      <p>Endereço: Rua da Saúde, 123 - Centro - Cidade/UF</p>
+      <p>Telefone: (00) 1234-5678 | E-mail: contato@clinicavivamais.com.br</p>
+    </footer>
+    
+  </body>
+</html>

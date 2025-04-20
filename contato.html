@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | Clínica Viva Mais</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html" class="logo">Clínica Viva Mais</a>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="servico.html">Serviço</a></li>
+          <li><a href="equipe.html">Nossa equipe</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <button class="hamburger"></button>
+      </nav>
+    </header>
+
+    <main class="section-content">
+      <h1>Fale Conosco</h1>
+      <p>Preencha o formulário abaixo para saber mais sobre nossos serviços:</p>
+      <form class="contact-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required />        
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required />
+
+        <label for="estado">Estado:</label>
+        <input type="text" id="estado" name="estado" required />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer class="rodape">
+      <p>&copy; 2025 Clínica Viva Mais. Todos os direitos reservados.</p>
+      <p>Endereço: Rua da Saúde, 123 - Centro - Cidade/UF</p>
+      <p>Telefone: (00) 1234-5678 | E-mail: contato@clinicavivamais.com.br</p>
+    </footer>    
+  </body>
+</html>
