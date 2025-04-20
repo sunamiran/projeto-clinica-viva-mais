@@ -8,8 +8,6 @@ Um site institucional desenvolvido para a Clínica Viva Mais, com o objetivo de 
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em funcionamento na sua máquina local para fins de testes e avaliação.
 
-Consulte a seção de **📦 Implantação** para saber como colocar o projeto no ar.
-
 ---
 
 ## 📋 Pré-requisitos
@@ -26,7 +24,7 @@ Para rodar o projeto localmente, você precisa de:
 
 1. Clone o repositório:
 
-git clone https://github.com/arimiran/projeto-clinica-viva-mais.git
+git clone https://github.com/sunamiran/projeto-clinica-viva-mais.git
 
 2.Acesse a pasta do projeto:
 
